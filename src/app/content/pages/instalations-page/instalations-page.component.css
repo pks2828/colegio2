@@ -1,0 +1,135 @@
+main{
+  background-color: rgb(233, 227, 217);
+
+}
+
+/* Estilo para la clase py-4 en la sección */
+.py-4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* Estilo para la clase container en la sección */
+.container {
+    max-width: 1400px; /* Cambia el ancho máximo según tus preferencias */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+
+/* Estilo para la clase row en el div */
+.row {
+    margin: 0 -15px; /* Ajusta el margen negativo para contrarrestar el padding de las columnas */
+}
+
+/* Estilo para la clase col-lg-6 en el div */
+.col-lg-6 {
+    width: 50%; /* Ocupa el 50% del ancho en pantallas grandes */
+}
+
+/* Estilo para la clase col-md-8 en el div */
+.col-md-8 {
+    width: 66.6667%; /* Ocupa el 66.6667% del ancho en pantallas medianas */
+}
+
+/* Estilo para el título h1 con la clase fw-light */
+.titulo {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Aplica el peso "bold" */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Estilo para el párrafo con la clase lead y text-body-secondary */
+.desc{
+  font-size: 20px;
+  text-transform: initial;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 450; /* Aplica el peso "bold" */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-title{
+  color: #967548;
+  text-align: start;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Aplica el peso "bold" */
+  margin-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.card-text{
+  color: #000000;
+  text-align: start;
+  font-size: 16px;
+  text-transform: initial;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 450; /* Aplica el peso "bold" */
+  margin-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img{
+  width: 433;
+  height: 290;
+
+}
+
+
+
+@media (max-width: 767px) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+
+  .headertitulo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px  solid #ccc;
+    background: whitesmoke
+  }
+  .titulo {
+    font-size:22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.30em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 650; /* Aplica el peso "bold" */
+    margin-bottom: 10px;
+  }
+
+  /* Estilo para el párrafo con la clase lead y text-body-secondary */
+  .desc{
+    font-size: 15px;
+    text-transform: initial;
+    letter-spacing: 0.15em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500; /* Aplica el peso "bold" */
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+

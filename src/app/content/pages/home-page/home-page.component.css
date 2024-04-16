@@ -1,0 +1,67 @@
+.card{
+  background-color: rgb(233, 227, 217)
+}
+
+.card img{
+  margin-bottom: 100px;
+  width: 100%;
+  height: 550px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  background-color: rgb(233, 227, 217);
+  justify-content: space-between; /* Ajusta el espacio entre las tarjetas */
+  align-items: center; /* Centra las tarjetas verticalmente */
+}
+
+.col-lg-4 {
+  display: flex; /* Añade flexbox a las columnas */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+
+
+.card-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* Aplica el peso "bold" */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.cardGrados img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover; /* Ajusta la imagen al contenedor */
+  margin-top: 10px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .card img{
+    width: 100%;
+    height: 300px;
+  }
+
+  .col{
+    margin-bottom: 100px;
+  }
+  .col-lg-4 {
+    display: flex; /* Añade flexbox a las columnas */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+
+}

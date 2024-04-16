@@ -1,0 +1,92 @@
+
+
+.navbar-custom {
+  background-color: #ddcfb4;
+}
+
+.nav-link {
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  font-weight: 1000px;
+}
+
+.nav-link.active.nav-link-text {
+  background-color: transparent;
+  font-weight: bold !important;
+  color: black !important;
+}
+
+.navbar-nav{
+  padding-left: 0px;
+}
+
+.navbar-brand{
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Aplica el peso "bold" */
+  margin-right: 100px;
+
+
+  display: inline-block;
+  position: relative;
+
+}
+
+
+/*  Change navbar links color */
+nav ul li a {
+  color: #967548;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550; /* Aplica el peso "bold" */
+  font-size: 20px;
+
+}
+
+
+
+/*  Agregar un efecto de sombra al texto */
+nav ul li a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: relative;
+  background: #0a0a09;
+  transition: width 0.4s ease 0s, left 0.4s ease 0s;
+  width: 0;
+}
+/* Colocar la sombra debajo del texto cuando se pasa por encima */
+nav ul li a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1526px) {
+
+
+  .container {
+    max-width: 100%;
+    overflow-x: hidden; /* Ocultar desbordamiento horizontal */
+  }
+
+  .navbar-collapse {
+    justify-content: center;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-item {
+    margin: 0 5px;
+  }
+}
+

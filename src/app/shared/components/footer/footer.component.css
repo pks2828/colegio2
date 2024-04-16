@@ -1,0 +1,39 @@
+.bg-custom {
+  background-color: #ddcfb4;
+  color: black;
+  width: 100%; /* Ancho del 100% */
+  display: flex; /* Alinea los elementos en una fila */
+  justify-content: center; /* Centra los elementos horizontalmente */
+
+
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-links {
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.social-icon {
+  font-size: 2rem; /* Adjust this value as needed */
+  margin-right: 10px; /* Add space to the right of each icon */
+}
+
+.whatsapp-icon {
+  color: #25D366; /* WhatsApp green color */
+}
+@media (max-width: 768px) {
+  .footer-content {
+    width: 100%;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+}

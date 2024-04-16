@@ -1,0 +1,139 @@
+main{
+  background-color: rgb(233, 227, 217);
+
+}
+.carousel {
+  margin-bottom: 3rem;
+}
+.carousel-caption {
+  bottom: 1rem;
+  z-index: 1;
+}
+.carousel-item {
+  height: 32rem;
+}
+
+
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing .col-lg-4 p {
+  margin-right: .1rem;
+  margin-left: .1rem;
+}
+
+
+
+h2.featurette-heading{
+  color: #967548;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500; /* Aplica el peso "bold" */
+  margin-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.principales{
+  display: flex;
+  background-color: #967548;
+}
+
+.lead {
+  color: #000000;
+  text-transform: initial;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 450; /* Aplica el peso "bold" */
+
+
+  display: inline-block;
+  padding: 5px 20px;
+  position: relative;
+}
+
+.container{
+  margin-top: 35px;
+  padding-top: 25px;
+
+}
+
+h2.text-center{
+  color: #967548;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500; /* Aplica el peso "bold" */
+  margin-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card{
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-group{
+  padding-bottom: 20px;
+}
+
+.card-title{
+  color: #967548;
+  text-align: start;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Aplica el peso "bold" */
+  margin-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.card-text{
+  color: #000000;
+  text-align: start;
+  font-size: 16px;
+  text-transform: initial;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 450; /* Aplica el peso "bold" */
+  margin-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+@media (max-width: 767px) {
+
+
+  h2.featurette-heading {
+    font-size: 25px;
+  }
+
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+
+  .carousel-item {
+    height: 15rem;
+  }
+}
+
